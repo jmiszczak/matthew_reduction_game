@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5541170.svg)](https://doi.org/10.5281/zenodo.5541170)
+
+
 # Package matthew_reduction_game
 
 This software provides implementation of games on networks for controlling the inequalities in the capital
