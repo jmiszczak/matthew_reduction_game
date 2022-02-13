@@ -1,14 +1,18 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5541170.svg)](https://doi.org/10.5281/zenodo.5541170)
 
 
-# Package matthew_reduction_game
+# matthew_reduction_game
 
 This software provides implementation of games on networks for controlling the inequalities in the capital
-distribution (a.k.a. Janoski model).
+distribution (a.k.a. Janosik model).
 
 Software and data in this repository was used in the manuscript:
 
 J.A. Miszczak, _Constructing games on networks for controlling the inequalities in the capital distribution_, (2021).
+
+This software was used in:
+
+J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Volume 594, 15 May 2022, 126997 DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997)
 
 ## Quick start
 
