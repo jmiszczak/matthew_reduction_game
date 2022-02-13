@@ -8,11 +8,8 @@ distribution (a.k.a. Janosik model).
 
 Software and data in this repository was used in the manuscript:
 
-J.A. Miszczak, _Constructing games on networks for controlling the inequalities in the capital distribution_, (2021).
-
-This software was used in:
-
-J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Volume 594, 15 May 2022, 126997 DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997)
+J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Volume 594, 15 May 2022, 126997 DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997), arXiv:[2201.10913
+](https://arxiv.org/abs/2201.10913).
 
 ## Quick start
 
@@ -65,3 +62,8 @@ This software was tested with
 * Pandas 1.3.3
 * conda 4.10.3
 * Ubuntu 20.04.3 LTS
+
+### Contact information
+
+Responsible person: miszczak@iitis.pl
+
