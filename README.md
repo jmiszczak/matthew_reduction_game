@@ -63,7 +63,25 @@ This software was tested with
 * conda 4.10.3
 * Ubuntu 20.04.3 LTS
 
+## Publication
+
+The presented results were published in
+
+J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Vol. 594 (2022), 126997, DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997), arXiv:[2201.10913](https://arxiv.org/abs/2201.10913) 
+
+
+```
+@article{miszczak2022constructing,
+  title = {Constructing games on networks for controlling the inequalities in the capital distribution},
+  author = {Miszczak, Jaros{\l}aw Adam},
+  journal = {Physica A: Statistical Mechanics and its Applications},
+  volume = {594},
+  pages = {126997},
+  year = {2022},
+  doi = {10.1016/j.physa.2022.126997}
+}
+```
+
 ### Contact information
 
 Responsible person: miszczak@iitis.pl
-
