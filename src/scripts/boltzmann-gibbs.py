@@ -61,7 +61,7 @@ ineq_index_data_bg = pd.DataFrame([],columns=['num_agents',
                                               'min_hoover', 'max_hoover', 'median_hoover', 'mean_hoover',
                                               'min_theil', 'max_theil', 'median_theil', 'mean_theil'])
 
-for num_agents in range(20, 201, 20):
+for num_agents in range(120, 121, 20):
    
     initial_capital = 20
     sum_money = (1+num_agents)*(2*initial_capital+num_agents)//2
@@ -85,4 +85,4 @@ for num_agents in range(20, 201, 20):
 
   
 #%% data saving
-ineq_index_data_bg.to_csv("data/ineq_index_values-boltzmann-gibbs.zip", index=False, compression=dict(method='zip', archive_name='data.csv'))
+ineq_index_data_bg.to_csv("data/ineq_index_values-boltzmann-gibbs_v2.zip", index=False, compression=dict(method='zip', archive_name='data.csv'))
