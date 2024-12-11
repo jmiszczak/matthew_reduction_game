@@ -10,6 +10,8 @@ Software and data in this repository were used in the manuscript:
 
 J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Volume 594, 15 May 2022, 126997 DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997), arXiv:[2201.10913](https://arxiv.org/abs/2201.10913).
 
+This version was created using Mesa 0.8, and it will not work with the current version. For running the specific version fof mesa, it is recommend to use ```venv``` module.
+
 ## Quick start
 
 Main functionality is contained within `src/model` folder. To run a simulation of the base model with capital
@@ -41,6 +43,8 @@ used to extend the models and run simulations using random graphs models.
 * `data` is used to store simulation results and can be used to store graphs generated for running simulations,
 * `plots` is used to store final plots.
 
+## Running the code
+
 ### Anaconda environment
 
 You can use to install most of the required packages
@@ -61,6 +65,16 @@ This software was tested with
 * Pandas 1.3.3
 * conda 4.10.3
 * Ubuntu 20.04.3 LTS
+
+### Using venv
+
+To use the specific version of Mesa with a virtual environment, use the following commands:
+
+    python3 -m venv ~/VEnvs/mesa-0.8
+    . ~/VEnvs/$1/bin/activate
+    pip install mesa==0.8.9
+    pip install ipython scipy matplotlib
+
 
 ## Publication
 
