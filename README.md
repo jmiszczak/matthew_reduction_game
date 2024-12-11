@@ -71,7 +71,7 @@ This software was tested with
 To use the specific version of Mesa with a virtual environment, use the following commands:
 
     python3 -m venv ~/VEnvs/mesa-0.8
-    . ~/VEnvs/$1/bin/activate
+    . ~/VEnvs/mesa-0.8/bin/activate
     pip install mesa==0.8.9
     pip install ipython scipy matplotlib
 
