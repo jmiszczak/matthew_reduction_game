@@ -13,7 +13,7 @@ from IPython.core.display import display
 import matplotlib as mpl
 import matplotlib.figure as figure
 
-from src.model.JanosikParrondoGraphModel import JanosikParrondoGraphModel
+
 
 mpl.rc('text', usetex = True)
 mpl.rc('font', size = 10)
@@ -33,9 +33,10 @@ else:
     script_path = os.getcwd()
 
 import sys
-sys.path.append("..")
+sys.path.append(".")
 
-from ParrondoGraphModel import ParrondoGraphModel
+from JanosikParrondoGraphModel import JanosikParrondoGraphModel
+
 import indicators
 
 
