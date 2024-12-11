@@ -2,9 +2,9 @@
 # coding: utf-8
 
 #%% global packages
-import mesa.batchrunner as mb
+# import mesa.batchrunner as mb
 import numpy as np
-import networkx as nx
+# import networkx as nx
 import uuid
 import pandas as pd
 

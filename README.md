@@ -6,7 +6,7 @@
 This software provides implementation of games on networks for controlling the inequalities in the capital
 distribution (a.k.a. Janosik model).
 
-Software and data in this repository was used in the manuscript:
+Software and data in this repository were used in the manuscript:
 
 J.A. Miszczak, *Constructing games on networks for controlling the inequalities in the capital distribution*, Physica A: Statistical Mechanics and its Applications, Volume 594, 15 May 2022, 126997 DOI:[10.1016/j.physa.2022.126997](https://doi.org/10.1016/j.physa.2022.126997), arXiv:[2201.10913](https://arxiv.org/abs/2201.10913).
 
@@ -26,7 +26,7 @@ Example of the model with Parrondo's game used for policy selection can be run a
 where the parameter `nagents` is used to define a number of agents in the network. Please note tha only equal difference
 methods (i.e. uniform) is used for this case.
 
-In all case simulation is executed using parallel capabilities of Mesa library. The number of cored ussed in the
+In all case simulation is executed using parallel capabilities of Mesa library. The number of cored used in the
 simulation is controlled by the `nr_processes` parameter of `BatchRunnerMP` class.
 
 ## Package organization and installation

@@ -12,6 +12,9 @@ from IPython.core.display import display
 
 import matplotlib as mpl
 import matplotlib.figure as figure
+
+from src.model.JanosikParrondoGraphModel import JanosikParrondoGraphModel
+
 mpl.rc('text', usetex = True)
 mpl.rc('font', size = 10)
 
@@ -46,10 +49,10 @@ import indicators
 # initial capital
 init_wealth = 2
 
-# bias in the Parronod scheme
+# bias in the Parrondo scheme
 default_eps = 0.002
 
-### graph used in the experiemnt
+### graph used in the experiment
 # size of the BA network
 network_size = 100
 
@@ -79,7 +82,7 @@ variable_params = {
         }
          
 batch_run = mb.BatchRunnerMP(
-        ParrondoGraphModel,
+        JanosikParrondoGraphModel,
         nr_processes = 6,
         variable_parameters=variable_params,
         fixed_parameters=fixed_params,
