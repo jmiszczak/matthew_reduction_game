@@ -52,12 +52,12 @@ grid_height = 10
 graph_id = "w"+str(grid_width) + "_h"+str(grid_height)
 graph_file_path = script_path + '/graphs/grid2d/' + graph_id + ".gz"
 
-# graph generation and saving - can be used only onece for the grid
+# graph generation and saving - can be used only once for the grid
 # graph = nx.generators.lattice.grid_2d_graph(grid_width,grid_height,periodic=True)
 # nx.readwrite.write_gexf(graph, graph_file_path)
 # nx.draw(graph)
 
-# bias in the Parronod scheme, policy, number of agents
+# bias in the Parrondo scheme, policy, number of agents
 default_policies = ['A', 'B', 'AABB', 'uniform']
 default_eps_vals = [0.1, 0.05, 0.01, 0.005]
 # agen_nums = range(20,121,20)
@@ -119,7 +119,7 @@ if __name__ == "__main__":
 # x_vals_dense = range(agen_nums.start,agen_nums.stop,agen_nums.step//2)
 # gini_data = np.loadtxt(script_path+"/data/gini_index_values-constant.dat")
 # 
-# #%% ploting
+# #%% plotting
 # fig = mpl.figure.Figure(figsize=(12,10))
 # for i,curr_policy in enumerate(default_policies):
 #     for j,curr_eps in enumerate(default_eps_vals):
