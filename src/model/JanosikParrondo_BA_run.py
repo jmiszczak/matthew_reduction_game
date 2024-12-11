@@ -25,7 +25,7 @@ os.chdir(os.path.dirname(__file__))
 import sys
 sys.path.append("..")
 
-from ParrondoGraphModel import ParrondoGraphModel
+from JanosikParrondoGraphModel import JanosikParrondoGraphModel
 import indicators
 
 #%%
